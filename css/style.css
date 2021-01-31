@@ -449,6 +449,11 @@ font-family:'Open Sans', sans-seri;
    margin-top:20px;
 
 }
+
+
+.item-3 img{
+	border-radius: 50%;
+}
 .footer-sec{
 	width:100%;
 	background-image: url(../img/ban.png);
