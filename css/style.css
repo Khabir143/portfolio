@@ -1,4 +1,4 @@
-/*global css section*/
+*global css section*/
 
 *{
 	margin:0;
@@ -32,7 +32,7 @@ header{
 	font-family:'Open Sans', sans-seri;
     position: relative;
     padding: 40px 0;
- 
+
 }
 .nav-link:before{
 	content:'';
@@ -64,15 +64,15 @@ transition:0.7s
     background-repeat: no-repeat;
     background-position: center;
     height:100vh;
- 
+
 }
 
 .banner-text{
 	text-align: center;
 	padding-top: 180px;
 
-     
-    
+
+
 }
 
 .banner-text h1{
@@ -109,7 +109,7 @@ transition:0.7s
 .icon{
 	padding:120px 0;
    margin-top: 40px;
-  
+
 }
 
 .icon i{
@@ -122,7 +122,7 @@ transition:0.7s
     line-height:40px; 
 }
 
-   
+
 
 
 /*About me section css*/
@@ -164,7 +164,7 @@ font-family:'Open Sans', sans-seri;
 
 
 .me p{
-	
+
 }
 
 
@@ -179,24 +179,61 @@ font-family:'Open Sans', sans-seri;
 	list-style:none;
 	display: inline-block;
 	margin: 15px;
-	
+
 }
 
-.list li a{
+.face a{
 	font-size:18px;
-	background-color:#de6375;
+	background-color:tomato;
 	color: white;
-	height:30px;
+	height:10px;
+	padding-top:7px;
+
 	border-radius: 60%;
 }
+.you a{
+font-size:18px;
+	background-color:tomato;
+	color: white;
+	height:10px;
+	padding-top:7px;
 
+	border-radius: 60%;
+
+}
+.in a{
+	font-size:18px;
+	background-color:tomato;
+	color: white;
+	height:10px;
+	padding-top:7px;
+
+	border-radius: 60%;
+}
  .list li i{
 	width:40px;
-	height: 30px;
+	height: 40px;
 }
 
+.face a:hover{
+	color:blue;
+	background-color: white;
+	transform: scale(1.4);
+    border:1px solid blue;
+}
+.you a:hover{
+color:red;
+	background-color: white;
+	transform: scale(1.4);
+    border:1px solid red;
+}
 
-
+.in a:hover{
+color:tomato;
+	background-color: white;
+	transform: scale(1.4);
+    border:1px solid tomato;
+}
 button{
 	color:#51a351;
 	background-color: transparent;
@@ -271,7 +308,7 @@ button:hover{
 
 
 .list-item li{
-  
+
 
    list-style: none;
    display: inline-block;
@@ -316,7 +353,7 @@ transition:0.7s;
 }
 
 .number{
-	
+
 	background-color: #f3f4ff;
    padding:80px 0;
 
@@ -328,7 +365,7 @@ transition:0.7s;
 
 }
 .count-detail h6{
- 
+
   font-size: 45px;
   font-weight: 700;
   color: #444444;
@@ -361,10 +398,16 @@ margin:15px 0;
   height:100vh;
 }
 
-.testimonial img{
+.item img{
 	border-radius: 80px;
 	margin-top: 70px;
 }
+
+.item-2 img{
+	border-radius: 80px;
+	margin-top: 70px;
+}
+
 .testimonial h1{
 	font-family:'Open Sans', sans-seri;
    font-size:32px;
@@ -378,11 +421,317 @@ margin:15px 0;
 
 
 
-.testimonial p{
+.item p{
 	font-family:'Open Sans', sans-seri;
    font-size:18px;
    font-weight:400;
    color: #b4b5bc;
-   margin-top:15px;
+   margin-top:20px;
+   
+
+}
+.item-2 p{
+
+font-family:'Open Sans', sans-seri;
+   font-size:18px;
+   font-weight:400;
+   color:#ffb233 !important;
+   margin-top:20px;
+
+}
+
+
+.item-3 p{
+font-family:'Open Sans', sans-seri;
+   font-size:18px;
+   font-weight:400;
+   color:#d4ada5 !important;
+   margin-top:20px;
+
+}
+.footer-sec{
+	width:100%;
+	background-image: url(../img/ban.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100vh;
+	 
+   margin-top:20px;
+}
+
+.left-port h4{
+	color:#ffffff;
+	font-size:36px;
+	font-weight: 400;
+	font-family:'Open Sans', sans-seri;
+	margin: 40px 0;
+	letter-spacing: 5px;
+
+}
+
+.left-port p{
+	color:#ffffff;
+	font-size:18px;
+	font-weight: 400;
+	font-family:'Open Sans', sans-seri;
+}
+
+
+.mid-part{
+
+	padding:60px 0;
+}
+.mid-part p{
+	color:#ffffff;
+	font-size:16px;
+	font-weight: 400;
+	 font-family:'Open Sans', sans-seri;
+	 text-transform: uppercase;
+}
+
+.mid-part span{
+	color:#ffffff;
+	font-size:20px;
+	font-weight: 400;
+	 font-family:'Open Sans', sans-seri;
+}
+
+.mid-2nd p{
+	color:#ffffff;
+	font-size:16px;
+	font-weight: 400;
+	 font-family:'Open Sans', sans-seri;
+	 text-transform: uppercase;
+	 margin-top:30px; 
+}
+
+.mid-2nd span{
+	color:#ffffff;
+	font-size:20px;
+	font-weight: 400;
+	 font-family:'Open Sans', sans-seri;
+	}
+
+	.right-part{
+      
+   padding:20px 0;
+}
+
+.right-part p{
+  color:#ffffff;
+	font-size:16px;
+	font-weight: 400;
+	 font-family:'Open Sans', sans-seri;
+	 text-transform: uppercase;
+	 margin-top:30px; 
+
+}
+.right-part span{
+color:#ffffff;
+	font-size:20px;
+	font-weight: 400;
+	 font-family:'Open Sans', sans-seri;
+
+}
+
+.name{
+
+	padding: 8px;
+    width: 38%;
+	border:1px solid #ffb233;
+    background-color:transparent;
+    border-radius: 3px;
+  
+}
+.name::placeholder{
+	color:#c8c8c8;
+	font-size:16px;
+	
+	 font-family:'Open Sans', sans-seri;
+
+}
+
+.phone{
+	padding: 8px;
+
+    width: 38%;
+	border:1px solid #ffffff;
+    background-color:transparent;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+.phone::placeholder{
+color:#c8c8c8;
+	font-size:16px;
+	
+	 font-family:'Open Sans', sans-seri;	
+}
+
+.name, .phone:focus{
+	outline: none;
+}
+
+textarea{
+	width:79%;
+	height:200px;
+	margin-top: 20px;
+	background-color: transparent;
+	color:#c8c8c8;
+	border:1px solid #ffffff;
+	
+}
+
+textarea:focus{
+
+	outline:none;
+
+}
+
+.but{
+	background-color:#51a351;
+	color:white;
+	font-size:16px;
+	font-weight:400;
+	 font-family:'Open Sans', sans-seri;
+	 margin-top: 15px;	
+	 width:80%;
+     border-radius:10px;
+}
+.but:hover{
+
+background-color: transparent;
+color:white;
+border: 1px solid white;
+transform: skew(10deg);
+}
+.but:focus{
+	outline: none;
+}
+
+
+.portfolio{
+width:100%;
+padding:80px 0;
+}
+.main{
+	text-align: center;
+}
+
+.main h1{
+	color:#696f77;
+	font-size:36px;
+	font-weight: 400;
+	font-family:'Open Sans', sans-seri;
+	margin: 40px 0;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.menu{
+	text-align: center;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right:25px;
+	
+}
+
+.menu ul li{
+
+	color:#696f77;
+	font-size:16px;
+	font-weight: 600;
+	font-family:'Open Sans', sans-seri;
+	
+	
+}
+
+.menu ul li:before{
+
+}
+
+
+.menu ul li:before:hover{
+
+}
+
+.gellary{
+	display: flex;
+    margin-top:20px;
+    padding-top: 30px;
+}
+
+.gellary img{
+	margin:12px;
+
+}
+
+
+.effect{
+	position: relative;
+
+}
+
+.hover-text{
+	display: none;
+    position: absolute;
+    top: 10px;
+    left: 11px;
+    background: rgb(0,0,0,0.65);
+    bottom: 11px;
+    right: -12px;
+   
+}
+
+.effect:hover .hover-text{
+	display: block;
+    
+}
+.hover-text{
+
+padding:10px 0;
+}
+.hover-text h1{
+	color:#1ba98a;
+    letter-spacing: 3px;
+	font-size:32px;
+	font-weight: 600;
+	font-family:'Open Sans', sans-seri;
+  
+
+}
+
+.hover-text .line{
+background-color: #1ba98a;
+height:3px;
+width:20%;
+
+}
+
+.hover-text p{
+
+ color:#b2b3b3;
+	font-size:14px;
+	font-weight: 400;
+	 font-family:'Open Sans', sans-seri;
+	 text-transform: uppercase;
+	margin-top: 10px;
+	 
+
+}
+
+.hover-text  i{
+	height: 40px;
+	width:40px;
+	background-color: transparent;
+     border:1px solid gray;
+ line-height: 40px;
+ border-radius: 50%;
+ color:gray;
+ font-size:18px;
 
 }
